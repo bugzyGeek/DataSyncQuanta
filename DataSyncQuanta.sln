@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSyncQuanta", "DataSyncQuanta\DataSyncQuanta.csproj", "{0798A147-43C3-4477-B83E-12E45A50C360}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSyncQuanta", "DataSyncQuanta\DataSyncQuanta.csproj", "{0798A147-43C3-4477-B83E-12E45A50C360}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSyncQuanta.Redis", "DataSyncQuanta.Redis\DataSyncQuanta.Redis.csproj", "{A5E545E4-FDE7-49F4-A415-1101B89CB603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSyncQuanta.Collection", "DataSyncQuanta.Collection\DataSyncQuanta.Collection.csproj", "{0D93691B-C3A9-4881-99D9-067FD636CBAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0798A147-43C3-4477-B83E-12E45A50C360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0798A147-43C3-4477-B83E-12E45A50C360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0798A147-43C3-4477-B83E-12E45A50C360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E545E4-FDE7-49F4-A415-1101B89CB603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E545E4-FDE7-49F4-A415-1101B89CB603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E545E4-FDE7-49F4-A415-1101B89CB603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E545E4-FDE7-49F4-A415-1101B89CB603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D93691B-C3A9-4881-99D9-067FD636CBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D93691B-C3A9-4881-99D9-067FD636CBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D93691B-C3A9-4881-99D9-067FD636CBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D93691B-C3A9-4881-99D9-067FD636CBAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
